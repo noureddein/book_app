@@ -33,29 +33,23 @@ function showFormHandler(req, res) {
 // No API key required
 // Console.log request.body and request.body.search
 function createSearch(request, response) {
-  let url = 'https://www.googleapis.com/books/v1/volumes?q=';
-
-  console.log(request.body);
-  console.log(request.body.search);
-
-  if (request.body.search[1] === 'title') { url += `+intitle:${request.body.search[0]}`; }
-  if (request.body.search[1] === 'author') { url += `+inauthor:${request.body.search[0]}`; }
-  console.log(url);
-  superAgent.get(url)
-    .then(apiResponse => apiResponse.body.items.map(bookResult => new Book(bookResult.volumeInfo)))
-    .then(results => response.render('pages/show', { searchResults: results }));
+  try {
+    let url = 'https://www.googleapis.com/books/v1/volumes?q=';
+    if (request.body.search[1] === 'title') { url += `+intitle:${request.body.search[0]}`; }
+    if (request.body.search[1] === 'author') { url += `+inauthor:${request.body.search[0]}`; }
+    console.log(url);
+    superAgent.get(url)
+      .then(apiResponse => apiResponse.body.items.map(bookResult => new Book(bookResult.volumeInfo)))
+      .then(results => response.render('pages/show', { searchResults: results }));
+  } catch (error) {
+    response.status(500).send(`Somthing went wrong with search route: ${error}`);
+  }
 }
 
 //=============================================================
 
 // Constructer function
 
-// function Books(title, autherName, description) {
-//   const imgURl = 'https://i.imgur.com/J5LVHEL.jpg';
-//   this.title = title;
-//   this.autherName = autherName;
-//   this.description = description;
-// }
 function Book(info) {
   this.placeholderImage = info.imageLinks.thumbnail;
   // 'https://i.imgur.com/J5LVHEL.jpg';
