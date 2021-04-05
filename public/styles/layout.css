@@ -1,0 +1,20 @@
+.books p {
+        margin: 20px;
+        padding: 10px;
+        width: 50%;
+}
+
+.conainer {
+        margin: 20px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+}
+
+.conainer .books {
+        padding: auto;
+        width: 40%;
+        border: black 1px solid;
+        text-align: center;
+}
