@@ -1,6 +1,5 @@
 'use strict';
 require('dotenv').config();
-// const bodyParser = require('body-parser');
 const express = require('express');
 const superAgent = require('superagent');
 const PORT = process.env.PORT || 3000;
@@ -16,21 +15,33 @@ app.use(express.urlencoded({ extended: true }));
 app.get('/', renderHomePage);
 app.get('/searches/new', showFormHandler);
 app.post('/searches', createSearch);
+app.get('*', errorHandler);
 
+
+function errorHandler(req, res) {
+  res.send('Somthing went wrong');
+}
 
 //========================================================
 
 function renderHomePage(req, res) {
-  res.render('pages/index');
+  try {
+    res.render('pages/index');
+  } catch (errer) {
+    errorHandler();
+
+  }
 };
 
 function showFormHandler(req, res) {
-  res.render('pages/searches/new')
+  try {
+    res.render('pages/searches/new')
+  } catch {
+    errorHandler();
+  }
 
 }
 
-
-// No API key required
 // Console.log request.body and request.body.search
 function createSearch(request, response) {
   try {
@@ -51,10 +62,10 @@ function createSearch(request, response) {
 // Constructer function
 
 function Book(info) {
-  this.placeholderImage = info.imageLinks.thumbnail;
-  // 'https://i.imgur.com/J5LVHEL.jpg';
+  this.placeholderImage = info.imageLinks ? info.imageLinks.smallThumbnail : 'https://i.imgur.com/J5LVHEL.jpg';
+  this.isbn = info.industryIdentifiers ? info.industryIdentifiers[0].identifier : 'ISBN Not Found';
   this.title = info.title || 'No title available'; // shortcircuit
-  this.authr = info.authors || 'Auther not found';
+  this.author = info.authors || 'Auther not found';
   this.description = info.description || 'Describtion not found'
 
 }

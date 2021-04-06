@@ -13,10 +13,11 @@
                 <div class="conainer">
                         <% searchResults.forEach(book => { %>
                                 <div class="books">
-                                <img src="<%= book.placeholderImage %>" alt="<%= book.title%>" >
-                                <h3><%= book.title%></h3>
-                                <h5><%= book.author%></h5>
-                                <p><%= book.description%></p>
+                                        <img src="<%= book.placeholderImage %>" alt="<%= book.title%>" >
+                                        <h3><%= book.title%></h3>
+                                        <h5> <strong>Author: </strong> <%= book.author%></h5>
+                                        <h6> <strong>ISBN: </strong> <%= book.isbn %></h6>
+                                        <p><%= book.description%></p>
                                 </div>
                         <% }) %>
                 </div>
