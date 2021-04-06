@@ -4,6 +4,9 @@ const express = require('express');
 const superAgent = require('superagent');
 const PORT = process.env.PORT || 3000;
 const app = express();
+const pg = require('pg');
+const db = new pg.Client(process.env.DATABASE_URL);
+
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
@@ -26,7 +29,16 @@ function errorHandler(req, res) {
 
 function renderHomePage(req, res) {
   try {
-    res.render('pages/index');
+    const dbData = 'SELECT * FROM savedBooks;';
+
+    db.query(dbData).then(results => {
+      let data = results.rowCount;
+      if (data) {
+        res.send(results.rows[0]);
+      }
+    })
+
+
   } catch (errer) {
     errorHandler();
 
@@ -74,7 +86,10 @@ function Book(info) {
 //=============================================================
 
 //Port = 3000
-app.listen(PORT, () => {
-  console.log(`Listening to port No. ${PORT}`);
-})
+db.connect().then(() => {
+  console.log('Connected to Database!!')
+  app.listen(PORT, () => {
+    console.log(`Listening to port No. ${PORT}`);
+  })
+});
 
