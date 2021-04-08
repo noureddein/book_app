@@ -5,39 +5,42 @@ const superAgent = require('superagent');
 const PORT = process.env.PORT || 3000;
 const app = express();
 const pg = require('pg');
+const cors = require('cors');
 const db = new pg.Client(process.env.DATABASE_URL);
 
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
-
+app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 
 //==============================================================
 //handlers 
 
 app.get('/', renderHomePage);
-app.get('/searches/new', showFormHandler);
-app.post('/searches', createSearch);
+app.get('/searches', showFormHandler);
+app.post('/searches/new', createSearch);
 app.get('*', errorHandler);
 
 
 function errorHandler(req, res) {
-  res.send('Somthing went wrong');
+  res.send('Something went wrong');
 }
 
 //========================================================
 
 function renderHomePage(req, res) {
-  const dbData = 'SELECT * FROM savedBooks;';
-
+  const dbData = 'SELECT * FROM books;';
   db.query(dbData).then(results => {
-    let data = results.rowCount;
-    if (data) {
-      res.render();
-      // .then(results => response.render('pages/show', { searchResults: results }));
-
+    let data = results.rows;
+    if (results) {
+      res.render('pages/show', {
+        searchResults: data,
+        booksQty: data.length
+      });
     }
-  }).catch()
+  }).catch(error => {
+    res.send('Something went wrong in home page!')
+  })
 
 
 
@@ -63,20 +66,20 @@ function createSearch(request, response) {
       .then(apiResponse => apiResponse.body.items.map(bookResult => new Book(bookResult.volumeInfo)))
       .then(results => response.render('pages/show', { searchResults: results }));
   } catch (error) {
-    response.status(500).send(`Somthing went wrong with search route: ${error}`);
+    response.status(500).send(`Something went wrong with search route: ${error}`);
   }
 }
 
 //=============================================================
 
-// Constructer function
+// Constructor function
 
 function Book(info) {
   this.placeholderImage = info.imageLinks ? info.imageLinks.smallThumbnail : 'https://i.imgur.com/J5LVHEL.jpg';
   this.isbn = info.industryIdentifiers ? info.industryIdentifiers[0].identifier : 'ISBN Not Found';
-  this.title = info.title || 'No title available'; // shortcircuit
-  this.author = info.authors || 'Auther not found';
-  this.description = info.description || 'Describtion not found'
+  this.title = info.title || 'No title available'; // short circuit
+  this.author = info.authors || 'Author not found';
+  this.description = info.description || 'Description not found'
 
 }
 
