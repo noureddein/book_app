@@ -28,21 +28,19 @@ function errorHandler(req, res) {
 //========================================================
 
 function renderHomePage(req, res) {
-  try {
-    const dbData = 'SELECT * FROM savedBooks;';
+  const dbData = 'SELECT * FROM savedBooks;';
 
-    db.query(dbData).then(results => {
-      let data = results.rowCount;
-      if (data) {
-        res.send(results.rows[0]);
-      }
-    })
+  db.query(dbData).then(results => {
+    let data = results.rowCount;
+    if (data) {
+      res.render();
+      // .then(results => response.render('pages/show', { searchResults: results }));
+
+    }
+  }).catch()
 
 
-  } catch (errer) {
-    errorHandler();
 
-  }
 };
 
 function showFormHandler(req, res) {
