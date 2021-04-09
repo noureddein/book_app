@@ -1,0 +1,644 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 542,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "DwACAAAAQAAJ",
+      "etag": "2ITvR2f+3G0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/DwACAAAAQAAJ",
+      "volumeInfo": {
+        "title": "Harry Blount",
+        "authors": ["Philip Gilbert Hamerton"],
+        "publishedDate": "1875",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "OXFORD:600065307"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=DwACAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=DwACAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.jo/books?id=DwACAAAAQAAJ&pg=PA76&dq=harry&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=DwACAAAAQAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=DwACAAAAQAAJ"
+      },
+      "saleInfo": {
+        "country": "JO",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=DwACAAAAQAAJ&rdid=book-DwACAAAAQAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "JO",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.jo/books/download/Harry_Blount.epub?id=DwACAAAAQAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.jo/books/download/Harry_Blount.pdf?id=DwACAAAAQAAJ&hl=&output=pdf&sig=ACfU3U0hy-aBBfpJ4AmAYnpxGirZ8ofiow&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=DwACAAAAQAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "and offered it to <b>Harry</b> as an expression of his gratitude. <b>Harry</b> took the bunch, <br>\ndetached his own seal, and returned the rest. Then Wade pressed him to accept <br>\nthem, in a manner that was intended to be bluff and hearty, as his father would&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Ea4QAAAAYAAJ",
+      "etag": "qdMA9JZCSSY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Ea4QAAAAYAAJ",
+      "volumeInfo": {
+        "title": "Harry and Lucy",
+        "subtitle": "With Other Tales",
+        "authors": ["Maria Edgeworth"],
+        "publishedDate": "1842",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "HARVARD:HWJW2S"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.3.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Ea4QAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Ea4QAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.jo/books?id=Ea4QAAAAYAAJ&pg=PA256&dq=harry&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Ea4QAAAAYAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Ea4QAAAAYAAJ"
+      },
+      "saleInfo": {
+        "country": "JO",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=Ea4QAAAAYAAJ&rdid=book-Ea4QAAAAYAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "JO",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.jo/books/download/Harry_and_Lucy.epub?id=Ea4QAAAAYAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.jo/books/download/Harry_and_Lucy.pdf?id=Ea4QAAAAYAAJ&hl=&output=pdf&sig=ACfU3U2K6KvVl1c7CjEVlANtsxT_CsOZkQ&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Ea4QAAAAYAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "True , <b>Harry</b> , ” said his father . “ The question therefore is , what we should <br>\nbelieve , and whom we should trust - you want rules to guide you . Is this what <br>\nyou mean ? &quot; “ Exactly , ” said <b>Harry</b> . Here Lucy was tired , and went away to <br>\nmake his&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "YWYCAAAAYAAJ",
+      "etag": "SMG4orEtqGM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/YWYCAAAAYAAJ",
+      "volumeInfo": {
+        "title": "Harry and Lucy: with Other Tales",
+        "authors": ["Maria Edgeworth"],
+        "publishedDate": "1842",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "NYPL:33433082531926"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=YWYCAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=YWYCAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.jo/books?id=YWYCAAAAYAAJ&pg=PA387&dq=harry&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=YWYCAAAAYAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=YWYCAAAAYAAJ"
+      },
+      "saleInfo": {
+        "country": "JO",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=YWYCAAAAYAAJ&rdid=book-YWYCAAAAYAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "JO",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.jo/books/download/Harry_and_Lucy_with_Other_Tales.epub?id=YWYCAAAAYAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.jo/books/download/Harry_and_Lucy_with_Other_Tales.pdf?id=YWYCAAAAYAAJ&hl=&output=pdf&sig=ACfU3U1y6VoEVeBv_5NVNe5_Y7bqTEq2ZQ&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=YWYCAAAAYAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Just so , <b>Harry</b> . But what is that something ? You are acquainted with it , ” said his <br>\nfather . &quot; Is it sea - salt , &quot; said <b>Harry</b> , &quot; which is in the water ? &quot; “ Yes , <b>Harry</b> ; a <br>\nchymist has lately tried experiments which have ascertained this fact ; and , in&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Oi86AQAAMAAJ",
+      "etag": "HZXbBWcbiXU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Oi86AQAAMAAJ",
+      "volumeInfo": {
+        "title": "Historical Materials in the Harry S. Truman Library",
+        "authors": ["Harry S. Truman Library"],
+        "publishedDate": "1982",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "NWU:35556010876563"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 65,
+        "printType": "BOOK",
+        "categories": ["United States"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Oi86AQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Oi86AQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.jo/books?id=Oi86AQAAMAAJ&pg=PP1&dq=harry&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Oi86AQAAMAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Oi86AQAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "JO",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=Oi86AQAAMAAJ&rdid=book-Oi86AQAAMAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "JO",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.jo/books/download/Historical_Materials_in_the_Harry_S_Trum.epub?id=Oi86AQAAMAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Oi86AQAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "k_aaDwAAQBAJ",
+      "etag": "jZkgSY8jndk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/k_aaDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Harry Kane",
+        "authors": ["Ben Hubbard"],
+        "publishedDate": "2019-08-08",
+        "description": "Harry Kane rose to stardom as a professional Premier League football player. Read about the teams he has played for and his key role in playing for England in the 2018 FIFA World Cup.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781474777131"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1474777139"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 32,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=k_aaDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=k_aaDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.jo/books?id=k_aaDwAAQBAJ&pg=PA20&dq=harry&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.jo/books?id=k_aaDwAAQBAJ&dq=harry&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Kane.html?hl=&id=k_aaDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "JO",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "JO",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=k_aaDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "By 2015, <b>Harry</b> was on fire. He had become a goal-scoring machine for <br>\nTottenham. He was named Premier League Player of the Month twice. He <br>\nbecame the Premier League&#39;s top scorer for two seasons in a row. <b>Harry</b> then <br>\nsigned a new&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "pKFNAQAAMAAJ",
+      "etag": "dnRVytklhV4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/pKFNAQAAMAAJ",
+      "volumeInfo": {
+        "title": "Harry and Lucy Concluded",
+        "subtitle": "Being the Last Part of Early Lessons",
+        "authors": ["Maria Edgeworth"],
+        "publishedDate": "1825",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "SRLF:AA0014835086"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": ["Conduct of life"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.3.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=pKFNAQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=pKFNAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.jo/books?id=pKFNAQAAMAAJ&pg=RA1-PA282&dq=harry&hl=&cd=6&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=pKFNAQAAMAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=pKFNAQAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "JO",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=pKFNAQAAMAAJ&rdid=book-pKFNAQAAMAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "JO",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.jo/books/download/Harry_and_Lucy_Concluded.epub?id=pKFNAQAAMAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=pKFNAQAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Being the Last Part of Early Lessons Maria Edgeworth. Whatever it was she was <br>\nsaying , <b>Harry&#39;s</b> attention was so much distracted by it , that he could not <br>\ncomprehend some very simple suggestion . “ Is it possible that you do not <br>\nunderstand me&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "4wQgevKtp7cC",
+      "etag": "y5dXzOJJ0JA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/4wQgevKtp7cC",
+      "volumeInfo": {
+        "title": "Horrible Hands Harry",
+        "authors": ["Betty Cernech"],
+        "publisher": "AuthorHouse",
+        "publishedDate": "2011-11",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781467061391"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1467061395"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 24,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=4wQgevKtp7cC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=4wQgevKtp7cC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.jo/books?id=4wQgevKtp7cC&printsec=frontcover&dq=harry&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.jo/books?id=4wQgevKtp7cC&dq=harry&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Horrible_Hands_Harry.html?hl=&id=4wQgevKtp7cC"
+      },
+      "saleInfo": {
+        "country": "JO",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "JO",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=4wQgevKtp7cC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "GB2IPE8PJ38C",
+      "etag": "BBxb2ZRYOk0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/GB2IPE8PJ38C",
+      "volumeInfo": {
+        "title": "Harry Houdini",
+        "authors": ["C. E. L. Welsh"],
+        "publisher": "Campfire",
+        "publishedDate": "2010",
+        "description": "In graphic novel format recounts the life and career as a magician and escape artist of Ehrich Weiss, better known as Harry Houdini, from the perspective of his last weeks, as seen by a fictional young assistant and his uncle.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789380028255"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9380028253"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 76,
+        "printType": "BOOK",
+        "categories": ["Comics & Graphic Novels"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.0.0.preview.0",
+        "comicsContent": true,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=GB2IPE8PJ38C&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=GB2IPE8PJ38C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.jo/books?id=GB2IPE8PJ38C&pg=PP1&dq=harry&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.jo/books?id=GB2IPE8PJ38C&dq=harry&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Houdini.html?hl=&id=GB2IPE8PJ38C"
+      },
+      "saleInfo": {
+        "country": "JO",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "JO",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=GB2IPE8PJ38C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "JwVPoGffKL0C",
+      "etag": "huYwKAUN/Zo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/JwVPoGffKL0C",
+      "volumeInfo": {
+        "title": "Competition, Corporate Governance, and Regulation in Central Asia",
+        "subtitle": "Uzbekistan's Structural Reform Challenges",
+        "authors": ["Harry G. Broadman"],
+        "publisher": "World Bank Publications",
+        "publishedDate": "2000",
+        "description": "Like many Central Asian republics, Uzbekistan has adopted a gradual, cautious approach in its transition to a market economy. It has had some success attaining macroeconomic stability, but microeconomic reforms have lagged behing. It is time to accelerate structural reform.",
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 21,
+        "printType": "BOOK",
+        "categories": ["Business Performance"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=JwVPoGffKL0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=JwVPoGffKL0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.jo/books?id=JwVPoGffKL0C&pg=PP1&dq=harry&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.jo/books?id=JwVPoGffKL0C&dq=harry&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Competition_Corporate_Governance_and_Reg.html?hl=&id=JwVPoGffKL0C"
+      },
+      "saleInfo": {
+        "country": "JO",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "JO",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=JwVPoGffKL0C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Like many Central Asian republics, Uzbekistan has adopted a gradual, cautious approach in its transition to a market economy."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "XkoCAAAAYAAJ",
+      "etag": "6IO6drDt7rs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/XkoCAAAAYAAJ",
+      "volumeInfo": {
+        "title": "Wallace's Monthly",
+        "publishedDate": "1886",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "NYPL:33433066617204"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": ["Horse racing"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.3.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=XkoCAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=XkoCAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.jo/books?id=XkoCAAAAYAAJ&pg=PA952&dq=harry&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=XkoCAAAAYAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=XkoCAAAAYAAJ"
+      },
+      "saleInfo": {
+        "country": "JO",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=XkoCAAAAYAAJ&rdid=book-XkoCAAAAYAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "JO",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.jo/books/download/Wallace_s_Monthly.epub?id=XkoCAAAAYAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.jo/books/download/Wallace_s_Monthly.pdf?id=XkoCAAAAYAAJ&hl=&output=pdf&sig=ACfU3U06fh4X5JhctwzHoCae8_ET9fgYwQ&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=XkoCAAAAYAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "<b>Harry</b> B . ( 2 : 51 ) , b h , ( 788 ) . <b>Harry</b> West ( 2 : 41 % 4 ) , bl g . by Col <br>\nHambletonian Boy , b h , 787 , 790 . <b>Harry</b> B . ( 3 : 27 ) , ch g , ( 686 ) . West , 465 , <br>\n467 , ( 549 ) , 550 , 622 , 638 Hambletonian Gift ( 2 : 29 ) , ch h , by <b>Harry</b> Bashaw <br>\n( 2 : 46 )&nbsp;..."
+      }
+    }
+  ]
+}

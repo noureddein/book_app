@@ -1,13 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-        <head>
-                <meta charset="UTF-8">
-                <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                <meta name="viewport" content="width=device-width,
-                        initial-scale=1.0">
-                <title>Book Details</title>
-        </head>
-        <body>
-
-        </body>
-</html>
+<section>
+    <!-- TO DO -->
+    <!-- CREATE a partail section and append it to views/pages/books/show.ejs -->
+    <div class="conainer">
+        <div class="books">
+            <img src="<%= data.image_url %>" alt="<%= data.title %>">
+            <h3>
+                <%= data.title %>
+            </h3>
+            <h5> <strong>Author: <%= data.author %></strong></h5>
+            <p>
+                <%= data.description %>
+            </p>
+        </div>
+    </div>
+</section>
